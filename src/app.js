@@ -11,11 +11,11 @@ dolarDun
 console.log(dolarDun)
 
 const euroDun = 11.2
-// euroDun = 11   //*Hatalı 
+// euroDun = 11   //*Hatalıı
 
 console.log(euroDun)
 
-//array //camelCasing  //PascalCasing  
+//array  //camelCasing  //PascalCasing  
 let konutKredileri =  [21, "Emlak Konut Kredisi", ["a","b", "c"],"özel konut"]
 
 console.log("<ul>")
