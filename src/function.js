@@ -1,66 +1,62 @@
-// //Klasik Function
-// function addToCard(productName,quantity = 0) {
-//     console.log("Sepete eklendi " ,  "ürün:" + productName  + "adet" + quantity)
-// }
+ //Klasik Function
+function addToCard(productName,quantity = 0) {
+    console.log("Sepete eklendi " ,  "ürün:" + productName  + "adet" + quantity)
+ }
 
-// addToCard("armut");
+ addToCard("armut");
 
-// //Arrow Function
-// let sayHello = () => {
-//     console.log("hello word")
-// }
+//Arrow Function
+ let sayHello = () => {
+     console.log("hello word")
+ }
 
-// sayHello()
+ sayHello()
 
-// function addToCart2(product, quantity, uniyPrice) {
-    
-// }
+ function addToCart2(product, quantity, uniyPrice) { }
 
-
-// addToCart2("elma",5,10)
-// addToCart2("armut",3,15)
+ addToCart2("elma",5,10)
+ addToCart2("armut",3,15)
 
 
-////OBJE MANTIĞI 
-// let product1 = {productName : "Elma", uniyPrice:10, quantity:5}
+//OBJE MANTIĞI 
+ let product1 = {productName : "Elma", uniyPrice:10, quantity:5}
 
-// function addToCart3(product) {
-//     console.log("Ürün : " + product.productName)
-//     console.log("Adet : " + product.quantity)
-//     console.log("Fiyat : " + product.uniyPrice)
-// }
+ function addToCart3(product) {
+     console.log("Ürün : " + product.productName)
+     console.log("Adet : " + product.quantity)
+     console.log("Fiyat : " + product.uniyPrice)
+ }
 
-// addToCart3(product1)
+ addToCart3(product1)
 
+ let product2 = {productName : "Elma", uniyPrice:10, quantity:5}  //OBJE
+ let product3 = {productName : "Elma", uniyPrice:10, quantity:5}  //OBJE
 
-// let product2 = {productName : "Elma", uniyPrice:10, quantity:5}  //OBJE
-// let product3 = {productName : "Elma", uniyPrice:10, quantity:5}  //OBJE
+ product2 = product3
+ product2.productName = "KARPUZ"
 
-// product2 = product3
-// product2.productName = "KARPUZ"
+ console.log(product3.productName) ////KARPUZ ÇIKAR
 
-// console.log(product3.productName) ////KARPUZ ÇIKAR
-
-// let sayi1 = 10
-// let sayi2 = 20
-// sayi1 = sayi2
-// sayi2 = 100
-// console.log(sayi1)  //20 çıkar
+ let sayi1 = 10
+ let sayi2 = 20
+ sayi1 = sayi2
+ sayi2 = 100
+ console.log(sayi1)  //20 çıkar
 
 
 
-// function addToCart4(x) {
-//     console.log(produ)
-// }
+ function addToCart4(x) {
+     console.log(produ)
+ }
 
 
-// let products = [
-//     {productName : "Elma", uniyPrice:10, quantity:5},
-//     {productName : "Armut", uniyPrice:10, quantity:5},
-//     {productName : "Karpuz", uniyPrice:10, quantity:5}
-// ]
+ let products = [
+     {productName : "Elma", uniyPrice:10, quantity:5},
+     {productName : "Armut", uniyPrice:10, quantity:5},
+     {productName : "Karpuz", uniyPrice:10, quantity:5}
+ ]
 
-// addToCart4(products)
+ addToCart4(products)
 
 
 
