@@ -1,17 +1,22 @@
 //export = dışarıdan export edilebileceği anlamına gelir.
 //default = UserServicei import ettiğimde default olarak bu classı import et demek 
 export default class UserService{
+    constructor(loggerService){
+        this.users = []
+        this.loggerService = loggerService
+    }
 
-    add(){
-        console.log("kullanıcı eklendi")
+    add(user){
+        this.users.push(user)
+        this.loggerService.log(user)
     }
 
     list(){
-        console.log("kullanıcı listelendi")
+        return this.users
     }
 
-    getById(){
-        console.log("kullanıcı detayı getirildi")
+    getById(id){
+        return this.users.find(u=>u.id ===id)
     }
 }
 

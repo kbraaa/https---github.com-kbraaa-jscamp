@@ -7,7 +7,6 @@ let cart = [
     {id:6, productName:"Pot", quantity:3, unitPrice:150}
 ]
 
-
 //--------------MAP----------
 //map() => arrayi tek tek dolaşmayı sağlıyor.
 //cart.map(product => console.log(product.productName) ) //sepetimizi tek tek dolaşmaya yarıyor 
@@ -46,10 +45,9 @@ console.log(total)  // *12820
 
 
 
-
-
+//referans tipte belleğin adresi 
 /*
-//sepete ürün ekleme
+//sepete ürün ekleme  //101'e ilere
 function addToCart(sepet) {
        sepet.push({id:7, productName:"Ruhsat", quantity:1, unitPrice:20})
 }
@@ -58,9 +56,11 @@ addToCart(cart)
 console.log(cart)
 
 
-// +1 consola eklemez
+// +1 consola eklemez //değer tip bu
+
 let sayi = 10
 sdd
+
 function sayiTopla(number) {
     number += 1
 }
@@ -68,3 +68,7 @@ function sayiTopla(number) {
 sayiTopla(sayi)
 console.log(sayi)
 */
+
+
+//
+//Not: SPA (tek sayfa uygulamalar)=> Angular, react vue ile geliştirilen uygulamalara denir.
